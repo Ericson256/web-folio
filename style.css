@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+.main {
+    background-color: black;
+}
+.header {
+    background-image: url('./images/award.png');
+    background-repeat: repeat-x;
+
+    width: auto;
+    height: 650px;
+    padding: 10px 0 10px 0;
+}
+.myDiv {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: rgba(8, 0, 0, 0.212);
+    text-align: center;
+    height: 800px;
+    color:#07254b;
+    text-align: justify;
+    padding: 10px 0 10px 0;
+    
+}
+.innerDiv {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: rgba(8, 0, 0, 0.212);
+    text-align: center;
+    height: 800px;
+    color:#ecb80d;
+    text-align: justify;
+    padding: 10px 0 10px 0;
+    border-end-end-radius: 10px 5px 10px 5em;
+}
+
+.card {
+    border: 5px outset rgba(182, 179, 179, 0.973);
+    background: rgb(15, 15, 15);
+    background: linear-gradient(rgba(5, 229, 245, 0.918) 0%, rgba(235, 220, 224, 0.1rgba(245, 247, 242, 0.137)47, 242)100%);
+    width: 300px;
+    height: 500px;
+    border-color: rgba(18, 18, 19, 0.973);
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 8px 4px 8px 4px rgba(7, 7, 7, 0.863);
+    border-radius: 5px;
+    transition: 0.3s;
+    color: white;
+   
+
+    /* Add shadows to create card effect*/
+    box-shadow: 0 8px 12px 0 rgba(85, 81, 81, 0.904);
+    transition: 0.6s;
+
+}
+
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(248, 44, 8, 0.945);
+
+}
+
+.container {
+    padding: 2px 16px;
+}
+.myimage {
+    background-color: #cccccc;
+    height: 180px;
+}
+
+.stack {
+    font-size: 40px;
+    line-height:calc(20px + 20vh);
+    text-align: center;
+    text-shadow:0 0 5px #ffa500, 0 0 15px #ffa500, 0 0 20px #ffa500, 0 0 40px #ffa500, 0 0 60px #ffa500, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+    color:#fff6a9;
+    font-family: "Sacramento", cursive;
+    animation: blink 12s infinite;
+    -webkit-animation: blink 12s infinite;
+
+}
+.content{
+    background-color: #f8f8f600;
+    display: block;
+    font-size: larger;
+    color: #cccccc;
+    height: 520px;
+     
+}
+
+.info1{
+    background: rgb(15, 15, 15);
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    color:white ;
+    padding-left: 20px;
+    box-shadow:0 0 5px #67bef0, 0 0 15px #a8b7df, 0 0 20px #44adf3, 0 0 40px #299cdf, 0 0 60px #4faceb, 0 0 10px #e9e7e5, 0 0 98px #0552e2;
+}
+
+.info2{
+    background: rgb(15, 15, 15);
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    color:white ;
+    padding-left: 20px;
+    box-shadow:0 0 5px #67bef0, 0 0 15px #a8b7df, 0 0 20px #44adf3, 0 0 40px #299cdf, 0 0 60px #4faceb, 0 0 10px #e9e7e5, 0 0 98px #0552e2;
+}
+
+.info3{
+    background: rgb(15, 15, 15);
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    margin: 50px;
+    color:white ;
+    padding-left: 20px;
+    box-shadow:0 0 5px #67bef0, 0 0 15px #a8b7df, 0 0 20px #44adf3, 0 0 40px #299cdf, 0 0 60px #4faceb, 0 0 10px #e9e7e5, 0 0 98px #0552e2;
+}
+
+.text1 {
+    background: rgb(15, 15, 15);
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    border-radius: 2rem;
+    color: rgb(252, 247, 247);  
+    font-size: larger;
+    text-align: left;
+    padding:5px 0 5px 0;
+    margin: 50px;
+    padding-left: 20px;
+
+
+
+}
+
+.text2 {
+    background-image: url('./images/graph.png')image-set(width='30px');
+    /*background: rgb(15, 15, 15);*/
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    border-radius: 2rem;
+    color: rgb(248, 245, 245);
+    font-size: small;
+    text-align: left;
+    margin:50px;
+    padding-left: 20px;
+
+}
+.text3 {
+    background: rgb(15, 15, 15);
+    display: inline-block;
+    height: 500px;
+    width: 500px;
+    border-radius: 2rem;
+    color: rgb(248, 245, 245);
+    font-size: larger;
+    text-align: left;
+    margin: 50px;
+    padding-left: 20px;
+
+}
+
+.footer {
+    background-color: rgb(14, 13, 13);
+    width: auto;
+    height: 300px;
+    color: black;
+    
+}
+.foot-link1 {
+    background-color: #0e0d0d;
+    display: inline-block;
+    margin-left: 200px;
+    color: #cccccc;
+    font-size: large;
+    text-decoration: none;
+}
+
+.foot-link2 {
+    background-color: #0e0d0d;
+    display: inline-block;
+    margin-left: 200px;
+    color: #cccccc;
+    font-size: large;
+}
+
+.foot-link3 {
+    background-color: #0e0d0d;
+    display: inline-block;
+    margin-left: 200px;
+    color: #cccccc;
+    font-size: large;
+}
+
+.foot-link4 {
+    background-color: #0e0d0d;
+    display: inline-block;
+    margin-left: 200px;
+    color: #cccccc;
+    font-size: large;
+}
+
+
+a {
+
+    color: #f7f8fa;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: #52505049;
+}
+a:active {
+    background-color: #ff00005d;
+}
+
+.copyright {
+    background-color: #050d3d;
+    text-align: center;
+    color: #f7f1f1;
+    margin-top: 30px;
+}
